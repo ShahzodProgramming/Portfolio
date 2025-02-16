@@ -40,7 +40,6 @@ nav ul li a {
 nav ul li a:hover {
   font-size: 20px;
   color: #c1121f;
-  border: #2b2d42 solid 2px;
 }
 
 .content__Wrapper {
@@ -69,18 +68,39 @@ nav ul li a:hover {
   transition: all 0.2s ease;
 }
 .content__Wrapper .content:hover {
-  padding-bottom: 30px;
   background: #fff;
   color: #2b2d42;
 }
-.info__wrapper{
-  margin-top: 100px;
+.info__wrapper {
+  margin-top: 150px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;  
 }
-.info__wrapper .img img{
+.info__wrapper .img img {
   max-height: 300px;
   max-width: 300px;
+}
+.info__wrapper .content {
+  max-width: 400px;
+}
+.media__wrapper{
+  height: 50px;
+  margin-top: 150px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+.media__wrapper .box{
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.media__wrapper .box i{
+  font-size: 25px;
 }
